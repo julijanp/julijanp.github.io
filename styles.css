@@ -62,7 +62,7 @@ body {
 
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
     .contactFormPos {
         padding: 15px;
         font-size: 25px;
@@ -94,7 +94,7 @@ body {
 
 
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 1023px) {
     .contactFormPos {
       font-size: 10px;
     }
@@ -145,7 +145,7 @@ body {
 }
 
 .googleMap>iframe{
-    height:auto;
+    height:70%;
     width: 70%;
     position: relative;
     float: left;
@@ -197,7 +197,7 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
     .contactUs>.titleContactUs{
         font-size: 35px;
     }
@@ -211,7 +211,7 @@ body {
 
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 1023px) {
     .contactUs>.titleContactUs{
         font-size: 25px;
     }
