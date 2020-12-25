@@ -71,7 +71,7 @@ body {
         font-size: 35px;  
     }
     .contactForm{
-        height: 330px;
+        height: 300px;
           
     }
 
@@ -102,7 +102,7 @@ body {
         font-size: 15px;  
     }
     .contactForm{
-        height: 230px;
+        height: 250px;
           
     }
 
@@ -190,13 +190,39 @@ body {
 }
 
 .author{
-    padding: 5px;
-    text-align: center;
-    font-size: 2vw;
-    color: rgb(0,0,0,0.4);
+    height: 20px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
+@media screen and (min-width: 700px) {
+    .contactUs>.titleContactUs{
+        font-size: 35px;
+    }
 
+    .author{
+        padding: 5px;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(0,0,0,0.4);
+    }
+
+}
+
+@media screen and (max-width: 699px) {
+    .contactUs>.titleContactUs{
+        font-size: 25px;
+    }
+
+    .author{
+        padding: 5px;
+        text-align: center;
+        font-size: 5px;
+        color: rgb(0,0,0,0.4);
+    }
+}
 
 
 
