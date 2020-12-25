@@ -175,7 +175,7 @@ body {
 
 .text-box,.text-area,.send-btn{
     
-    
+    text-align: center;
     display: flex;
     flex-direction: column;
     margin: 5px;
@@ -201,6 +201,14 @@ body {
     .contactUs>.titleContactUs{
         font-size: 35px;
     }
+
+    .text-box,.text-area,.send-btn{
+        font-size: 15px;
+    }
+        
+    
+        
+    
 
     .author{
         padding: 5px;
