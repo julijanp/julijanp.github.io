@@ -1,2 +1,4 @@
 # julijanp.github.io
-Web page
+Web developement for Odvetniška pisarna Rojko
+First GitHub project 🚀
+Webpage display with Gitpages
