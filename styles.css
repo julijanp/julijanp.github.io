@@ -1,17 +1,24 @@
 /* Master styles*/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
 body {
     font-family: "Raleway", sans-serif;
     margin: 0px;
     background-image: url("1.jpg");
     background-color: white;
-    height: 600px;
+    height: auto;
+    
     background-position: center top; 
     background-repeat: no-repeat;
     background-size: cover;
     
     position: relative;
-
-    
+      
 }
 
 .container{
@@ -26,6 +33,9 @@ body {
     
     padding: 38px;
     background-color: white;
+    width: auto;
+    
+    
 }
 
 
